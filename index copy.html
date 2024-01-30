@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>桃園科技藝術節xMe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@animxyz/core">
+    <style>
+        /* .carouselverticalone {
+    animation: looping 10s linear 0s infinite none;
+}
+
+
+.verticalcolumnone  {
+    max-height: 750px;
+        height: 750px;
+    width: 200px;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(transparent, black 20%, black 80%, transparent 100%);
+    mask-image: linear-gradient(transparent, black 20%, black 80%, transparent 100%);
+   border: 5px solid black;
+}
+
+@keyframes looping{
+0% {
+    transform: translateY(0px);
+}
+100% {
+    transform: translateY(-100%);
+}
+}*/
+
+/* 
+        .verticalcolumnone>div,
+        .square {
+            width: 50px;
+            height: 50px;
+            border: 3px solid black;
+        }
+
+
+        .try>p {
+            width: 20px;
+            height: 20px;
+            background-color: red;
+        }
+
+        .try>p:nth-of-type(1) {
+            opacity: 0.5;
+        }
+        .try>p:nth-of-type(3) {
+            opacity: 0.7;
+        }
+        .try>p:nth-of-type(4) {
+            opacity: 0.3;
+        } */
+
+        /* .trryy>img{
+            animation: small_roll 10s infinite linear;
+        } */
+
+
+        @keyframes small_roll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+    </style>
+
+
+</head>
+
+<body>
+    <!-- <div class="square xyz-out" xyz="fade up big"></div> -->
+    <!-- <div class="item-group" xyz="fade stagger duration-9 back-5"> -->
+    <!-- <div class="item-block xyz-in "xyz="fade stagger duration-9 back-5">
+            <div class="square xyz-nested" style="background-color: red;"></div>
+            <div class="square xyz-nested" style="background-color: orange;"></div>
+            <div class="square xyz-nested" style="background-color:blue;"></div>
+            <div class="square xyz-nested" style="background-color: green;"></div>
+        </div> -->
+
+
+    <!-- <div class="try">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div> -->
+    <!-- </div> -->
+    <!-- <div class="item-group" xyz="fade-75% delay-4 duration-4 stagger">
+        <div class="item-block xyz-in">
+            <div class="square xyz-nested" style="background-color:blue;"></div>
+            <div class="square xyz-nested" style="background-color: green;"></div>
+        </div>
+    </div> -->
+    <!-- <div class="item-group" xyz="fade stagger-2 duration-3 delay-2">
+        <div class="item-block xyz-in">
+            <div class="square xyz-nested"></div>
+            <div class="square xyz-nested"></div>
+        </div>
+    </div> -->
+    <!-- <div class="item-group" xyz="fade up out-down appear-big duration-5 in-duration-10">
+        <div class="square xyz-in"></div>
+        <div class="square xyz-in"></div>
+        <div class="square xyz-in"></div>
+        <div class="square xyz-in"></div>
+        <div class="square xyz-in"></div>
+    </div> -->
+
+
+    <!-- 
+    <div class="carouselverticalone ">
+        <div class="verticalcolumnone" xyz="fade">
+            <div class="xyz-in" xyz="fade up big">box1</div>
+            <div>box2</div>
+            <div>box3</div>
+            <div>box4</div>
+        </div> -->
+
+        <div style="display: flex; border: 3px solid black; width: 50vw; height: 20vh; background-color: antiquewhite;">
+            <div class="trryy" style="border: 1px solid red; height: 100%;">
+                <img style="height: 100%;" src="./img/about_small logo.png" alt="">
+            </div>
+            <!-- <div class="trryy" style="border: 1px solid red; height: 100%;">
+                <img style="height: 100%;" src="./img/about_small logo.png" alt="">
+            </div> -->
+
+        </div>
+
+    </div>
+    <button class="offff">123</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js
+
+
+
+"></script>
+    <script>
+        $(document).ready(function () {
+            // $('.offff').click(function () {
+            // $('.item-group>div').removeClass('.xyz-in')
+
+            // $('.item-group>div').forEach(element => {
+            // element.addClass('xyz-out');
+            // })
+            setInterval(function () {
+                $('.item-block').toggleClass('xyz-out')
+            }, 2000)
+
+
+            // })
+
+        });
+    </script>
+</body>
+
+</html>

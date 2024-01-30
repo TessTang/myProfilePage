@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>桃園科技藝術節xMe</title>
+    <link rel="shortcut icon" href="./img/webicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all.css">
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
+    <!-- Add the slick-theme.css if you want default styling -->
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@animxyz/core">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="spinner">
+            <p>
+                <img src="./img/logo.png" alt="logo">
+            <div class="loader"></div>
+            </p>
+        </div>
+        <!-- navbar -->
+        <nav class="menuOuter">
+
+            <!-- logo -->
+            <h1>
+                <a href="#">
+                    TessTang profile page
+                </a>
+            </h1>
+            <div class="weather">
+                <div class="weatherContent">
+                    <p>天氣:晴</p>
+                    <p></p>
+                </div>
+                <!-- javascript 確定後再確認關鍵字，再把對應class加上去-->
+                <div class="weatherIcon">
+                    <i class="fa-solid"></i>
+                    <div class="iconShadow"></div>
+                </div>
+            </div>
+            <!-- burger menu -->
+            <div class="checkSection">
+                <input type="checkbox" aria-label="Toggle menu" id="menuToggle"/>
+                <span></span>
+                <span></span>
+                <!-- menu items -->
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="#aboutSection">
+                                關於我
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#expSection">
+                                我的經驗
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#codeSection">
+                                我的作品
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contactSection">
+                                聯絡我
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- banner -->
+        <div class="banner_Outer">
+            <div class="banner_rightSide">
+                <div class="bannerText">
+                    <div class="bannerDeco">
+                        <img class="bannerLogo" src="./img/TTlogo.png" alt="2023TAxT">
+                        <img class="bannerCircle" src="./img/HIRE_ME.png" alt="2023TAxT">
+                    </div>
+                    <p class="bannerTitle">ME</p>
+                    <p class="bannerx">X</p>
+                    <p class="bannerTitle">FRONT-END</p>
+                    <p class="bannerTitle">DEVELOPER</p>
+                </div>
+                <p>從心開始CODE</p>
+                <!-- <button class="btn d-flex" style=" align-items: center;"> -->
+                <a class="btn d-flex" href="#aboutSection">
+                    <span>了解更多</span>
+                </a>
+                <div class="banner_img">
+                    <img src="./img/banner__23H0829SKN.jpg" alt="bannerimg">
+                </div>
+            </div>
+        </div>
+        <!-- about -->
+        <div class="d-flex about_Outer" id="aboutSection">
+            <!-- left_imgsection -->
+            <div class="about_leftSide col-com-7">
+                <p class="beforeText">hi<span>R</span>e</p>
+                <div class="mobileImg d-flex">
+                    <div class="imgRoll">
+                        <img src="./img/about_small logo.png" alt="about_logo">
+                    </div>
+                    <div class="imgRoll">
+                        <img src="./img/about_small logo.png" alt="about_logo">
+                    </div>
+                </div>
+
+                <div class="computerImg">
+                    <div class="imgFall">
+                        <img class="animate__animated animate__swing animate__infinite" src="./img/about_1.png"
+                            alt="aboutPic-1">
+                        <img class="animate__animated animate__swing animate__delay-2s animate__infinite"
+                            src="./img/about_2.png" alt="aboutPic-2">
+                        <img class="animate__animated animate__swing animate__delay-1s animate__infinite"
+                            src="./img/about_3.png" alt="aboutPic-3">
+                    </div>
+                    <div class="imgFall">
+                        <img class="animate__animated animate__swing animate__infinite" src="./img/about_1.png"
+                            alt="aboutPic-1">
+                        <img class="animate__animated animate__swing animate__delay-2s animate__infinite"
+                            src="./img/about_2.png" alt="aboutPic-2">
+                        <img class="animate__animated animate__swing animate__delay-1s animate__infinite"
+                            src="./img/about_3.png" alt="aboutPic-3">
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- contentsection -->
+            <div class="about_rightSide">
+                <div class="sideTitle movein d-flex">
+                    <span>01</span>
+                    <div>
+                        <h3>關於我</h3>
+                        <p class="eng">ABOUT ME</p>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="titleBox">
+                        <p>Me</p>
+                        <p><span>x</span>Front-End Developer</p>
+                    </div>
+                    <h2 class="movein">轉職起點</h2>
+                    <p  class="movein">在職場上因頻繁的需要處理大量資料，無意中接觸了EXCEL巨集，為了加快工作速度自行開始研究並被單位主管委託製作全單位需求。</p>
+                    <p  class="movein">在研究的過程中體會到了卡關後解決的成就感，並看到了前端相關資訊，了解後便報名資策會的前端工程師養成班，並且也在六角學院買了前端課程進行自主學習。</p>
+                    <a class="btn d-flex" href="#expSection">
+                        <span>了解更多</span>
+                    </a>
+                </div>
+                <div class="pantoneBox top">
+                    <div class="pantone_Top1 xyz-in" xyz="fade stagger duration-9 back-5">
+                        <span class="xyz-nested"></span>
+                        <span class="xyz-nested"></span>
+                        <span class="xyz-nested"></span>
+                        <span class="xyz-nested"></span>
+                    </div>
+                    <div class="pantone_Top2 xyz-in" xyz="fade stagger duration-9 back-5  delay-4">
+                        <span class="xyz-nested"></span>
+                        <span class="xyz-nested"></span>
+                        <span class="xyz-nested"></span>
+                        <span class="xyz-nested"></span>
+                    </div>
+                </div>
+                <div class="pantoneBox bottom">
+                    <div class="pantone_Bottom1 xyz-in" xyz="fade stagger duration-9 back-5">
+                        <span class="xyz-nested"></span>
+                        <span class="xyz-nested"></span>
+                        <span class="xyz-nested"></span>
+                        <span class="xyz-nested"></span>
+                    </div>
+                    <div class="pantone_Bottom2 xyz-in" xyz="fade stagger duration-9 back-5 delay-2">
+                        <span class="xyz-nested"></span>
+                        <span class="xyz-nested"></span>
+                        <span class="xyz-nested"></span>
+                        <span class="xyz-nested"></span>
+                    </div>
+                    <div class="pantone_Bottom3 xyz-in" xyz="fade stagger duration-9 back-5 delay-5">
+                        <span class="xyz-nested"></span>
+                        <span class="xyz-nested"></span>
+                        <span class="xyz-nested"></span>
+                        <span class="xyz-nested"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- work experience -->
+        <div class="workOuter" id="expSection">
+            <div class="sideTitle movein d-flex flex-justify-center">
+                <span>02</span>
+                <div>
+                    <h3>我的經驗</h3>
+                    <p class="eng">Experience</p>
+                </div>
+            </div>
+            <div class="workSection d-flex">
+                <div class="workCard movein">
+                    <div class="cardHead">
+                        <div class="cardHead_title d-flex">
+                            <p class="col-9 h3Name">資展國際-前端工程師就業養成班</p>
+                            <span class="col-3">單程票</span>
+                            <span class="col-12 engName">iSpan Front-End Developers Taining Class </span>
+                            <p class="workTime col-8">
+                                <span>2023/05</span>
+                                <img src="./img/workarrow.svg" alt="arrow">
+                                <span>2023/10</span>
+                            </p>
+                        </div>
+                        <div class="cardHead_content">
+                            <p>學員</p>
+                            <ul class="d-flex">
+                                <li>前端切版</li>
+                                <li>javaScript資料處理</li>
+                                <li>mySQL資料庫規劃</li>
+                                <li>Node.js串接</li>
+                                <li>小組專題合作</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cardBottom">
+                        <input type="radio">
+                        <ul>
+                            <li></i>設計、規劃負責頁面。</li>
+                            <li></i>HTML、CSS網頁切版。</li>
+                            <li></i>javaScript、jQuery製作網頁互動效果。</li>
+                            <li></i>規劃、設計與建置mySQL資料庫。</li>
+                            <li></i>Node.js撰寫API讀取更新資料庫，利用fetch串接後端。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="workCard movein">
+                    <div class="cardHead">
+                        <div class="cardHead_title d-flex">
+                            <p class="col-8 h3Name">環鴻科技股份有限公司</p>
+                            <span class="col-4">單程票</span>
+                            <span class="col-12 engName">UNIVERSAL GLOBAL SCIENTIFIC INDUSTRIAL CO., LTD.</span>
+                            <p class="workTime col-8">
+                                <span>2021/01</span>
+                                <img src="./img/workarrow.svg" alt="arrow">
+                                <span>2023/04</span>
+                            </p>
+                        </div>
+                        <div class="cardHead_content">
+                            <p>進出口專員</p>
+                            <ul class="d-flex">
+                                <li>進口報關作業</li>
+                                <li>確認相關法規</li>
+                                <li>安排貨物運輸</li>
+                                <li>請款費用處理</li>
+                                <li>製作單位需求巨集</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cardBottom">
+                        <input type="radio">
+                        <ul>
+                            <li>一個月內接手進口工作。</li>
+                            <li>提前確認法規問題，成功避免公司產生關務糾紛。</li>
+                            <li>主動尋找方案，成功節省機器進口3%成本。</li>
+                            <li>為單位寫出excel巨集，成功節省計帳時間70%。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="workCard movein">
+                    <div class="cardHead">
+                        <div class="cardHead_title d-flex">
+                            <p class="col-8 h3Name">捷盛報關股份有限公司</p>
+                            <span class="col-4">單程票</span>
+                            <span class="col-12 engName">JSC Customs Broker Co.,Ltd.</span>
+                            <p class="workTime col-8">
+                                <span>2017/07</span>
+                                <img src="./img/workarrow.svg" alt="arrow">
+                                <span>2020/03</span>
+                            </p>
+                        </div>
+                        <div class="cardHead_content">
+                            <p>出口OP人員</p>
+                            <ul class="d-flex">
+                                <li>出口報關作業</li>
+                                <li>貿易文件確認</li>
+                                <li>信用狀處理</li>
+                                <li>安排貨物運輸</li>
+                                <li>國際貿易條款確認</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cardBottom">
+                        <input type="radio">
+                        <ul>
+                            <li></i>兩個月內熟悉出口工作。</li>
+                            <li></i>主動致電相關單位確認，成功避免客戶貨物損失。</li>
+                            <li></i>主動尋找excel方法成功節省10%作業時間。</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- computermonsterdeco -->
+            <div class="face">
+                <div class="eye1">
+                    <div class="white">
+                        <div class="black"></div>
+                    </div>
+                </div>
+                <div class="eye2">
+                    <div class="white">
+                        <div class="black"></div>
+                    </div>
+                </div>
+                <div class="blush"></div>
+                <div class="blush"></div>
+            </div>
+        </div>
+
+        <!-- code -->
+        <div class="codeOuter" id="codeSection">
+        <div class="sideTitle movein d-flex flex-justify-center">
+            <span>03</span>
+            <div>
+                <h3>我的作品</h3>
+                <p class="eng">My project</p>
+            </div>
+        </div>
+        <div class="codeFlex">
+
+            <div class="code_slide code_vege">
+                <div class="code_title">Vege</div>
+                <h4 class="code_about">小組合作-蔬果箱定期配送網站</h4>
+                <ul class="code_about">
+                    <li>規劃活動、專欄頁面</li>
+                    <li>規劃頁面mySQL資料庫</li>
+                    <li>javaScript、jQuery製作互動效果</li>
+                    <li>Node.js撰寫API讀取更新資料庫</li>
+                </ul>
+                <a class="code_about" href="https://github.com/bjqs02/Vege">Github</a>
+            </div>
+            <div class="code_slide code_profile">
+                <div class="code_title">Profile</div>
+                <h4 class="code_about">參考網路製作Profile Page</h4>
+                <ul class="code_about">
+                    <li>Canvas製作圖片</li>
+                    <li>使用Scss美化頁面</li>
+                    <li>javaScript、jQuery製作互動效果</li>
+                    <li>串接中央氣象署API顯示天氣</li>
+                </ul>
+                <a class="code_about" href="https://github.com/bjqs02/Vege">Github</a>
+            </div>
+            <div class="code_slide code_todayLuck">
+                <div class="code_title">Today's Luck</div>
+                <h4 class="code_about">設計每日農民曆與星座資訊網</h4>
+                <ul class="code_about">
+                    <li>React製作前端頁面</li>
+                    <li>Node.js使用Cheerio爬蟲獲取資料</li>
+                    <li>localStorage存放使用者資訊</li>
+                    <li>axios串接資料與照片</li>
+                </ul>
+                <a class="code_about" href="https://github.com/TessTang/TodaysLuck">Github</a>
+            </div>
+        </div>
+    </div>
+        <!-- contact section -->
+        <div class="contactOuter" id="contactSection">
+            <div class="sideTitle movein d-flex flex-justify-center">
+                <span>04</span>
+                <div>
+                    <h3>聯絡我</h3>
+                    <p class="eng">Contact Me</p>
+                </div>
+            </div>
+            <div class="contact_Form d-flex flex-center">
+                <!-- backgrounddeco -->
+                <div class="background">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="login-box movein">
+                    <form action="mailto:z8937200@gmail.com">
+                        <div class="user-box">
+                            <input type="text" name="Name" required="">
+                            <label>Name</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="email" name="E-mail" required="">
+                            <label>E-mail</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="text" name="subject" required="">
+                            <label>Subject</label>
+                        </div>
+                        <div class="user-box">
+                            <textarea rows="8" type="textarea" name="Message" required=""></textarea>
+                            <label>Message</label>
+                        </div>
+                        <div>
+                            <button type="submit" id="contactBtn">送出</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footerOuter">
+            <div style="margin-right: auto;">
+                <img src="./img/TTlogo_sm.png" alt="footerlogo">
+            </div>
+            <p>project作品，非商業使用</p>
+            <div class="footerAnimate">
+                <span></span>
+            </div>
+        </footer>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.waitforimages/2.4.0/jquery.waitforimages.min.js"
+            integrity="sha512-L8XC2456W0xO8gCYqaY9/EQSHr9SL+QB2gaD6MQQLNZMUj52g99HkWqo2Cbw2LGQ0CRCLgxTcYUebQFCEq9NcQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="https://kit.fontawesome.com/afffc5a1db.js" crossorigin="anonymous"></script>
+        <script src="./js/style.js"></script>
+
+    </body>
+
+</html>

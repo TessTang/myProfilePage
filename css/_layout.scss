@@ -1,0 +1,122 @@
+// header
+
+
+// footer
+
+
+//buttons
+.btn {
+    background-color: $mainblue;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1.92px;
+    border-radius: 10px;
+    width: 170px;
+    padding: 16px 15px;
+    vertical-align: middle;
+    border: none;
+    transition:all 0.3s ease-out;
+
+
+    @include pad {
+        font-size: 16px;
+        width: 233px;
+        padding: 21.5px 20px;
+    }
+
+    &::before {
+        content: "";
+        height: 65%;
+        border-right: 1px solid white;
+        position: absolute;
+        right: 28%;
+
+        @include pad {
+            right: 25%;
+        }
+    }
+
+    &::after {
+        content: "";
+        width: 13px;
+        height: 13px;
+        background-image: url(../img/arrow.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: 10%;
+        filter: contrast(0) brightness(2);
+
+        @include pad {
+            width: 18px;
+            height: 18px;
+            right: 8%;
+        }
+    }
+
+    &:hover{
+        background-color: black;
+        transform: scale(1.1);
+    }
+}
+
+//sideTitle
+.sideTitle {
+
+    h3 {
+        font-weight: 400;
+        font-size: calc(1.3rem + 0.6vw);
+        line-height: 1;
+        letter-spacing: 1.2px;
+
+        @include pad {
+            font-size: 22px;
+        }
+
+        @include computer {
+            font-size: 24px;
+        }
+    }
+
+    .eng {
+        font-weight: 700;
+        font-family: "Roboto";
+        color: $mainblue;
+        text-transform: uppercase;
+        // font-size: 40px;
+        font-size: 2.5rem;
+        letter-spacing: 6px;
+
+        @include pad {
+            // font-size: 45px;
+            font-size: 2.81rem;
+        }
+
+        @include computer {
+            font-size: 3.75rem;
+        }
+    }
+
+    span {
+        padding-right: 23px;
+        font-weight: 500;
+        font-family: "Roboto";
+        color: $mainblue;
+        font-size: 20px;
+        line-height: 1;
+        letter-spacing: 0;
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            width: 3px;
+            height: 60%;
+            background-color: $mainblue;
+            margin-left: 10px;
+        }
+    }
+}

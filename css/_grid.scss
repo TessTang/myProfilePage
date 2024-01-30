@@ -1,0 +1,206 @@
+@mixin pad {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin computer {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+
+
+.col-1 {
+  flex: 0 0 auto;
+  width: 8.33333333%;
+}
+
+.col-2 {
+  flex: 0 0 auto;
+  width: 16.66666667%;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.col-5 {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 auto;
+  width: 58.33333333%;
+}
+
+.col-8 {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+}
+
+.col-9 {
+  flex: 0 0 auto;
+  width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 auto;
+  width: 83.33333333%;
+}
+
+.col-11 {
+  flex: 0 0 auto;
+  width: 91.66666667%;
+}
+
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .col-pad {
+      flex: 1 0 0%;
+  }
+
+  .col-pad-1 {
+      flex: 0 0 auto;
+      width: 8.33333333%;
+  }
+
+  .col-pad-2 {
+      flex: 0 0 auto;
+      width: 16.66666667%;
+  }
+
+  .col-pad-3 {
+      flex: 0 0 auto;
+      width: 25%;
+  }
+
+  .col-pad-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+  }
+
+  .col-pad-5 {
+      flex: 0 0 auto;
+      width: 41.66666667%;
+  }
+
+  .col-pad-6 {
+      flex: 0 0 auto;
+      width: 50%;
+  }
+
+  .col-pad-7 {
+      flex: 0 0 auto;
+      width: 58.33333333%;
+  }
+
+  .col-pad-8 {
+      flex: 0 0 auto;
+      width: 66.66666667%;
+  }
+
+  .col-pad-9 {
+      flex: 0 0 auto;
+      width: 75%;
+  }
+
+  .col-pad-10 {
+      flex: 0 0 auto;
+      width: 83.33333333%;
+  }
+
+  .col-pad-11 {
+      flex: 0 0 auto;
+      width: 91.66666667%;
+  }
+
+  .col-pad-12 {
+      flex: 0 0 auto;
+      width: 100%;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .col-com {
+      flex: 1 0 0%;
+  }
+
+  .col-com-1 {
+      flex: 0 0 auto;
+      width: 8.33333333%;
+  }
+
+  .col-com-2 {
+      flex: 0 0 auto;
+      width: 16.66666667%;
+  }
+
+  .col-com-3 {
+      flex: 0 0 auto;
+      width: 25%;
+  }
+
+  .col-com-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+  }
+
+  .col-com-5 {
+      flex: 0 0 auto;
+      width: 41.66666667%;
+  }
+
+  .col-com-6 {
+      flex: 0 0 auto;
+      width: 50%;
+  }
+
+  .col-com-7 {
+      flex: 0 0 auto;
+      width: 58.33333333%;
+  }
+
+  .col-com-8 {
+      flex: 0 0 auto;
+      width: 66.66666667%;
+  }
+
+  .col-com-9 {
+      flex: 0 0 auto;
+      width: 75%;
+  }
+
+  .col-com-10 {
+      flex: 0 0 auto;
+      width: 83.33333333%;
+  }
+
+  .col-com-11 {
+      flex: 0 0 auto;
+      width: 91.66666667%;
+  }
+
+  .col-com-12 {
+      flex: 0 0 auto;
+      width: 100%;
+  }
+}
+
