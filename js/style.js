@@ -22,10 +22,10 @@ $(document).ready(function () {
     const intersectionObserver = new IntersectionObserver(
         (entries) => {
             if (entries[0].isIntersecting) {
-                console.log('我進來了！');
+                // console.log('我進來了！');
                 eyes()
             } else {
-                console.log('我又出去了！');
+                // console.log('我又出去了！');
                 window.removeEventListener('mousemove', aaa)
             }
         }
